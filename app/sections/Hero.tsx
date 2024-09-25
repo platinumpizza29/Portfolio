@@ -4,7 +4,6 @@ import HeroBackground from "../components/background/HeroBackground";
 import React from "react";
 import AnimatedTitle from "../animations/AnimatedTitle";
 
-
 const Hero = () => {
   return (
     <motion.section
@@ -27,7 +26,6 @@ const Hero = () => {
             charSpace={"mr-[0.001em]"}
           />
         </div>
-
       </div>
     </motion.section>
   );
