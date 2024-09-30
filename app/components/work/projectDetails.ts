@@ -28,28 +28,28 @@ export type ProjectProps = {
 export const projects = [
     {
         id: 0,
-        name: "Eldora UI",
+        name: "TheMessCompany",
         description:
-            "open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+            "TheMessCompnay is a platform that aims to give a counseling service to people who are suffering from mental health issues.",
         technologies: [SiTypescript, SiReact, SiNextdotjs, SiTailwindcss, SiFramer],
         techNames: ["TypeScript", "React", "Next.js", "Tailwind CSS", "Framer Motion"],
         techLinks: ["https://www.typescriptlang.org/", "https://reactjs.org/", "https://nextjs.org/", "https://tailwindcss.com/", "https://www.framer.com/motion/"],
-        github: "https://github.com/karthikmudunuri/eldoraui",
-        demo: "https://www.eldoraui.site/",
+        github: "https://github.com/platinumpizza29/TheMessCompany",
+        demo: "themesscompany.vercel.app",
         image: "/projects/eldoraui.png",
         available: true,
     },
     {
         id: 1,
-        name: "VR MALL",
+        name: "Travelle",
         description:
-            "Developed an virtual mall by using Three.js and Typescript..",
+            "This is travelle site developed in nextjs and tailwind css",
         technologies: [SiWebgl,SiTypescript, SiReact],
-        techNames: ["WebGL", "Typescript", "React"],
+        techNames: ["Nextjs", "Typescript", "React"],
         techLinks: ["https://get.webgl.org/", "https://www.typescriptlang.org/", "https://reactjs.org/"],
-        github: "https://github.com/karthikmudunuri/VRMALL",
-        demo: "https://vrmalldemo.netlify.app/",
+        github: "",
+        demo: "",
         image: "/projects/vrmall.png",
-        available: true,
+        available: false,
     },
 ];

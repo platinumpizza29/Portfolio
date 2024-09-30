@@ -12,8 +12,7 @@ const syne = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.example.com/"),
   title: "Portfolio template - Eldora UI",
-  description:
-    "Eldora UI is a portfolio template built with React, Typescript, Tailwind CSS, and Framer Motion. 100% open-source, and customizable.",
+  description: "",
   generator: "Next.js",
   applicationName: "Portfolio template",
   keywords: [
