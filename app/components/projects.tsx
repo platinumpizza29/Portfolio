@@ -9,21 +9,21 @@ export function ProjectsComp() {
 }
 export const projects = [
   {
-    title: "TimeBird",
+    title: "LoyalTea — Loyalty Microservices",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "Microservice architecture for parsing promotional emails and delivering targeted offers. Built with Go (Gin), FastAPI, PostgreSQL and MongoDB.",
+    link: "#",
   },
   {
-    title: "Netflix",
+    title: "TheMessCompany — Web Interface",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "Responsive Next.js and Tailwind UI rebuilt to improve engagement and reduce bounce rates; integrated with React Query and TypeScript.",
+    link: "#",
   },
   {
-    title: "Google",
+    title: "Internal Tooling / APIs",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "RESTful APIs and CI/CD pipelines using Node.js, Docker and GitHub Actions for production deployments.",
+    link: "#",
   },
 ];

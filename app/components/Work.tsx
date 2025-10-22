@@ -1,45 +1,67 @@
-import Image from "next/image";
 import React from "react";
 import { Timeline } from "./custom/timeline";
 
 export function TimelineDemo() {
   const data = [
     {
-      title: "2023 - Present",
+      title: "Mar 2025 - Present",
+      content: (
+        <div className="space-y-4">
+          <h1 className="text-xl font-bold">LoyalTea</h1>
+          <h2 className="text-sm text-neutral-600">Full Stack Developer — Remote</h2>
+          <ul className="list-disc">
+            <li>
+              Designed modular loyalty app architecture with microservices to
+              parse promotional emails and deliver targeted offers.
+            </li>
+            <li>
+              Built Go (Gin) backend with RESTful APIs, JWT authentication,
+              PostgreSQL and MongoDB integration.
+            </li>
+            <li>
+              Developed FastAPI microservice for Mailgun webhook processing with
+              BeautifulSoup HTML parsing.
+            </li>
+            <li>
+              Integrated Firebase Auth for mobile authentication with a React
+              Native frontend.
+            </li>
+            <li>
+              Achieved ~200ms average API response time with horizontally
+              scalable Docker deployment.
+            </li>
+          </ul>
+        </div>
+      ),
+    },
+    {
+      title: "Jun 2024 - Feb 2025",
       content: (
         <div className="space-y-4">
           <h1 className="text-xl font-bold">TheMessCompany</h1>
+          <h2 className="text-sm text-neutral-600">Frontend Developer — Remote</h2>
           <ul className="list-disc">
             <li>
-              Developed and implemented front-end user experience improvements
-              for web applications
+              Developed responsive web interfaces using React.js, Next.js, and
+              Tailwind CSS, increasing user engagement by 30%.
             </li>
             <li>
-              Optimized database interactions using Prisma ORM to enhance system
-              performance
+              Refactored legacy components to functional components with React
+              Hooks for improved maintainability.
             </li>
             <li>
-              Configured PostgreSQL database for efficient data management and
-              storage
+              Implemented TypeScript for enhanced type safety and early bug
+              detection.
             </li>
             <li>
-              Collaborated with cross-functional teams to deliver scalable web
-              solutions
+              Applied UI improvements based on PostHog analytics, reducing
+              bounce rates by 20%.
             </li>
             <li>
-              Implemented responsive design principles to ensure optimal user
-              interface functionality
+              Integrated REST APIs with React Query for efficient data
+              presentation and state management.
             </li>
           </ul>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/templates/startup-1.webp"
-              alt="startup template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[...]"
-            />
-          </div>
         </div>
       ),
     },
@@ -47,97 +69,37 @@ export function TimelineDemo() {
       title: "Aug 2020 - Aug 2021",
       content: (
         <div className="space-y-4">
-          <h1 className="text-xl font-bold">
-            Ultimate Infosec Technology Pvt Ltd
-          </h1>
+          <h1 className="text-xl font-bold">Ultimate Infosec Technology Pvt Ltd</h1>
+          <h2 className="text-sm text-neutral-600">Software Developer — India</h2>
           <ul className="list-disc">
             <li>
-              Led the design and development of scalable SAAS applications,
-              leveraging cutting-edge FRONT-END technologies like REACT,
-              TYPESCRIPT, and modern WEB DEVELOPMENT frameworks to create
-              robust, user-centric software solutions that meet complex business
-              requirements.
+              Developed full-stack web applications using React, Node.js, and
+              PostgreSQL for complex business requirements.
             </li>
             <li>
-              Engineered responsive and dynamic user interfaces using REACTJS,
-              ensuring seamless cross-platform experiences with HTML5, CSS3, and
-              JAVASCRIPT, optimizing performance across diverse device
-              ecosystems.
+              Built RESTful APIs with Node.js (Express) and integrated
+              PostgreSQL via Prisma ORM.
             </li>
             <li>
-              Developed secure and high-performance backend APIs utilizing
-              innovative frameworks like BUN, ELYSIA, and NODE.JS, demonstrating
-              advanced expertise in RESTFUL API development and modern web
-              application architecture.
+              Created reusable UI components and responsive layouts using
+              React, HTML5, CSS3, and JavaScript.
             </li>
             <li>
-              Collaborated with cross-functional teams to deliver scalable web
-              solutions
-            </li>
-            <li>
-              Implemented comprehensive POSTGRESQL database solutions, designing
-              efficient data models with PRISMA ORM and optimizing database
-              interactions to support complex application data management and
-              retrieval strategies.
+              Contributed to performance optimizations improving load times and
+              user experience.
             </li>
           </ul>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/pro/bento-grids.png"
-              alt="bento template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[...]"
-            />
-          </div>
         </div>
       ),
     },
     {
-      title: "2019",
+      title: "Education",
       content: (
         <div className="space-y-4">
-          <h1 className="text-xl font-bold">Coditation Systems</h1>
-          <ul className="list-disc">
-            <li>
-              Designed and built a responsive Angular UI for seamless user
-              experience.
-            </li>
-            <li>
-              Implemented Express backend APIs, ensuring high availability,
-              security, and performance.
-            </li>
-            <li>
-              Communicated effectively with stakeholders to align goals and
-              expectations.
-            </li>
-            <li>
-              Developed microservices for efficient log handling from multiple
-              UNIX systems.
-            </li>
-            <li>
-              Introduced database support using MySQL for secure and reliable
-              log backups.
-            </li>
-            <li>Utilized XML and JSON for data exchange and configuration.</li>
-            <li>
-              Documented code and processes thoroughly to ensure maintainability
-              and knowledge sharing.
-            </li>
-            <li>
-              Quickly resolved bugs and implemented enhancements to improve
-              system reliability and performance.
-            </li>
-          </ul>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://assets.aceternity.com/pro/hero-sections.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[...]"
-            />
-          </div>
+          <h1 className="text-xl font-bold">University of Surrey</h1>
+          <p className="text-sm text-neutral-600">MSc in Data Science — Sep 2023</p>
+          <h1 className="text-xl font-bold">Pune University</h1>
+          <p className="text-sm text-neutral-600">BEng in Computer Engineering — Jun 2021</p>
         </div>
       ),
     },

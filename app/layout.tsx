@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Keyur Bilgi",
-  description: "Portfolio Website",
+  title: "KEYUR BILGI",
+  description:
+    "Full Stack Developer — React.js, Next.js, TypeScript, Node.js, Go. Building scalable, production-ready applications.",
 };
 
 export default function RootLayout({
